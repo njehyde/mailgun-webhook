@@ -1,0 +1,19 @@
+{
+  "name": "mailgun-webhooks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "mailgun.js": "^3.3.0"
+  },
+  "scripts": {
+    "start": "nodemon -r dotenv/config index.js"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
